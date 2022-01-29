@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Anchor from "../Anchor";
+import GlitchAnchor from "../GlitchAnchor";
 import AnimatedBackground from "./AnimatedBackground";
 
 const Style = styled.div`
@@ -7,15 +8,13 @@ const Style = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  border: 2px solid white;
-  border-right-width: 0;
-  border-right-width: 0;
-  border-radius: 20rem;
+  justify-content: center;
+  position: relative;
+`;
 
-  & > canvas {
-    border-radius: 20rem;
-    overflow: hidden;
-  }
+const WordMark = styled.h1`
+  font-style: italic;
+  font-size: 2.5rem;
 `;
 
 const Bio = () => {
@@ -36,9 +35,11 @@ const Bio = () => {
 
   return (
     <Style>
-      <AnimatedBackground width={300} height={300} />
+      <AnimatedBackground width={300} height={300} initialMode="lines" />
 
-      <h1>fleetfoxx</h1>
+      <WordMark>
+        <GlitchAnchor href="/">fleetfoxx</GlitchAnchor>
+      </WordMark>
 
       {links.map((link) => (
         <Anchor key={link.text} rtl href={link.url} target="_blank">
