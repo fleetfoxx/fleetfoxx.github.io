@@ -2,25 +2,30 @@ import styled from "styled-components";
 import Anchor from "../Anchor";
 import List from "../List";
 
-const Style = styled.div`
-`;
+const Style = styled.div``;
+
+const blogPosts = [
+  {
+    title:
+      "How this early 2000s toy played a pivotal role in catching the Golden State Killer.",
+    url: "#",
+  },
+  {
+    title: "Why I refuse to watch any movie made in July of 2010.",
+    url: "#",
+  },
+];
 
 const Home = () => {
   return (
     <Style>
       <h1>blog</h1>
       <List>
-        <li>
-          <Anchor href="#">
-            How the 90s toy Skannerz played a pivotal role in arresting the
-            Golden State Killer.
-          </Anchor>
-        </li>
-        <li>
-          <Anchor href="#">
-            Why I refuse to watch any movie made in July of 2010.
-          </Anchor>
-        </li>
+        {blogPosts.map((post) => (
+          <li key={post.title}>
+            <Anchor href={post.url}>{post.title}</Anchor>
+          </li>
+        ))}
       </List>
       <h1>portfolio</h1>
       <List>
