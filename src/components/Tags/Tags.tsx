@@ -11,7 +11,7 @@ const Tags = () => {
   const tags = ["#react", "#javascript", "#memes", "#sideProject"];
 
   return (
-    <Style>
+    <Style id="tags">
       <h4>tags</h4>
       <List>
         {tags.map((tag) => (

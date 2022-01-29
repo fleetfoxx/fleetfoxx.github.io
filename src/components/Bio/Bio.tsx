@@ -10,6 +10,10 @@ const Style = styled.div`
   align-items: flex-end;
   justify-content: center;
   position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 const WordMark = styled.h1`
@@ -34,7 +38,7 @@ const Bio = () => {
   ];
 
   return (
-    <Style>
+    <Style id="bio">
       <AnimatedBackground width={300} height={300} initialMode="lines" />
 
       <WordMark>

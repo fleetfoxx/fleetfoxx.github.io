@@ -122,7 +122,7 @@ const AnimatedBackground = ({
   return (
     <Wrapper>
       <Canvas ref={canvasElement} width="300" height="300" />
-      <ModeSelector>
+      {/* <ModeSelector>
         <button onClick={() => setMode("wander")} type="button">
           wander
         </button>
@@ -130,7 +130,7 @@ const AnimatedBackground = ({
         <button onClick={() => setMode("lines")} type="button">
           bolt
         </button>
-      </ModeSelector>
+      </ModeSelector> */}
     </Wrapper>
   );
 };

@@ -3,7 +3,6 @@ import Anchor from "../Anchor";
 import List from "../List";
 
 const Style = styled.div`
-  padding-left: 4rem;
 `;
 
 const Home = () => {
