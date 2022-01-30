@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Anchor from "../Anchor";
-import GlitchAnchor from "../GlitchAnchor";
+import UnstyledLink from "../UnstyledLink";
 import AnimatedBackground from "./AnimatedBackground";
 
 const Style = styled.div`
@@ -19,6 +19,7 @@ const Style = styled.div`
 const WordMark = styled.h1`
   font-style: italic;
   font-size: 2.5rem;
+  margin-bottom: 2rem;
 `;
 
 const Bio = () => {
@@ -42,7 +43,7 @@ const Bio = () => {
       <AnimatedBackground width={300} height={300} initialMode="lines" />
 
       <WordMark>
-        <GlitchAnchor href="/">fleetfoxx</GlitchAnchor>
+        <UnstyledLink to="/">fleetfoxx</UnstyledLink>
       </WordMark>
 
       {links.map((link) => (
