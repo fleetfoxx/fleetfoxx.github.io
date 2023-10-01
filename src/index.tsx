@@ -16,11 +16,6 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
-          <Route path="blog">
-            <Route index element={<Blog />} />
-            <Route path=":id" element={<BlogPost />} />
-          </Route>
-          <Route path="construction" element={<UnderConstruction />} />
           <Route path="*" element={<_404 />} />
         </Route>
       </Routes>

@@ -25,17 +25,17 @@ const WordMark = styled.h1`
 const Bio = () => {
   const links = [
     {
-      text: "twitter",
-      url: "https://twitter.com/fleetfoxx",
-    },
-    {
       text: "twitch",
       url: "https://twitch.com/fleetfoxx",
     },
     {
-      text: "soundcloud",
-      url: "#",
+      text: "kofi",
+      url: "https://ko-fi.com/fleetfoxx/",
     },
+    {
+      text: "contact",
+      url: "mailto:ff@fleetfoxx.dev"
+    }
   ];
 
   return (

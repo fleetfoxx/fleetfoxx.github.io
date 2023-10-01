@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Layout className="App">
       <Bio />
-      <Tags />
+      {/* <Tags /> */}
       <Content id="content">
         <Outlet />
       </Content>

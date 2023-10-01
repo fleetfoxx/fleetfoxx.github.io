@@ -9,7 +9,15 @@ const List = styled.ul<Props>`
   list-style: none;
 
   & > li {
-    margin-bottom: ${props => props.spacious ? "0.5rem" : "initial"};
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+    & > .description {
+      opacity: 0.7;
+      font-size: 0.9em;
+      padding-left: 4px;
+    }
   }
 `;
 
