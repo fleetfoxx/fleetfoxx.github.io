@@ -21,25 +21,22 @@ const Home = () => {
         ))}
       </List> */}
 
-      <h2>serious</h2>
+      <h2>games</h2>
       <List>
         <li>
-          <Anchor href="https://yt-backrooms.pages.dev/" target="_blank">
-            FewTube
+          <Anchor href="https://fleetfoxx.github.io/1-to-20/" target="_blank">
+            1-to-20
           </Anchor>
-          <span className="description">Explore YouTube videos with zero views and default titles.</span>
+          <span className="description">Sort 20 random numbers from 1 to 1000 without changing the order.</span>
         </li>
 
         <li>
-          <Anchor href="https://github.com/fleetfoxx/17lands-extensions" target="_blank">
-            17Lands Extensions
+          <Anchor href="https://fleetfoxx.itch.io/wubbyware" target="_blank">
+            WubbyWare
           </Anchor>
-          <span className="description">Adds additional features to the already wonderful 17Lands.com.</span>
+          <span className="description">Enjoy your favorite green goblin with fast-paced microgames!</span>
         </li>
-      </List>
 
-      <h2>silly</h2>
-      <List>
         <li>
           <Anchor href="https://fleetfoxx.itch.io/lil-wubby" target="_blank">
             Lil Wubby
@@ -55,7 +52,10 @@ const Home = () => {
             A silly game where you try to identify fictional characters based on their body parts. (slightly NSFW)
           </span>
         </li>
+      </List>
 
+      <h2>silly</h2>
+      <List>
         <li>
           <Anchor href="https://tmporter.github.io/play-monkey-rubby/" target="_blank">
             PlayMonkeyRubby
@@ -71,6 +71,23 @@ const Home = () => {
             A virtual receipt printer that prints every time someone subscribes to twitch.tv/paymoneywubby. (might be
             broken)
           </span>
+        </li>
+      </List>
+
+      <h2>misc</h2>
+      <List>
+        <li>
+          <Anchor href="https://yt-backrooms.pages.dev/" target="_blank">
+            FewTube
+          </Anchor>
+          <span className="description">Explore YouTube videos with zero views and default titles.</span>
+        </li>
+
+        <li>
+          <Anchor href="https://github.com/fleetfoxx/17lands-extensions" target="_blank">
+            17Lands Extensions
+          </Anchor>
+          <span className="description">Adds additional features to the already wonderful 17Lands.com.</span>
         </li>
       </List>
 

@@ -29,6 +29,10 @@ const Bio = () => {
       url: "https://twitch.com/fleetfoxx",
     },
     {
+      text: "itch.io",
+      url: "https://fleetfoxx.itch.io/",
+    },
+    {
       text: "kofi",
       url: "https://ko-fi.com/fleetfoxx/",
     },
