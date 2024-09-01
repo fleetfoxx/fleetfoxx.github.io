@@ -31,6 +31,13 @@ const Home = () => {
         </li>
 
         <li>
+          <Anchor href="https://fleetfoxx.github.io/wubdle/" target="_blank">
+            wubdle
+          </Anchor>
+          <span className="description">A Wubby phrase guessing -dle game.</span>
+        </li>
+
+        <li>
           <Anchor href="https://fleetfoxx.itch.io/wubbyware" target="_blank">
             WubbyWare
           </Anchor>
